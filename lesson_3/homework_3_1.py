@@ -10,10 +10,6 @@ result_1 = ''
 for i in range(3):
     result_1 += name_1
 
-print(result_1)
-
-
-
 
 # Ex. 2
 # Modify your previous program so that it will enter your name (save it in variable  name_2) and a number
@@ -27,7 +23,7 @@ result_2 = ''
 for j in range(number_1):
     result_2 += name_2
 
-print(result_2)
+
 
 
 
@@ -43,7 +39,7 @@ result_3 = 0
 
 for count in string_number_1:
     result_3 = result_3 + int(count)
-print(result_3)
+
 
 
 # Ex. 4
@@ -55,4 +51,3 @@ result_4 = 0
 for k in range(2, 101, 2):
     result_4 += k
 
-print(result_4)
