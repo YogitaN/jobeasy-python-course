@@ -20,12 +20,13 @@ print(result_1)
 # and save result in the result_2 variable.
 
 number_1 = 5234
+temp = number_1
 result_2 = 1
 
 
-while( number_1 > 0):
-    result_2 *= number_1 % 10
-    number_1 //= 10
+while( temp > 0):
+    result_2 *= temp % 10
+    temp //= 10
 
 print(result_2)
 
@@ -34,11 +35,12 @@ print(result_2)
 # a number with digits of number_1 in reverse order. Save it in result_3 variable
 
 number_2 = 236789
+temp = number_2
 result_3 = 0
 
-while(number_2 > 0):
-    remainder = number_2 %10
+while(temp > 0):
+    remainder = temp %10
     result_3 = (result_3*10)+remainder
-    number_2 //=10
+    temp //=10
 
 print(result_3)
